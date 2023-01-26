@@ -100,12 +100,25 @@ body {
 
 }
 
+@media screen and (max-width: 650px) {
+    .baner__h1 {
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+}
+
 .baner__p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 30px;
     margin: 0;
+}
 
+@media screen and (max-width: 650px) {
+    .baner__p {
+        font-size: 20px;
+        font-weight: 400;
+    }
 }
 
 .title-h2 {
@@ -124,6 +137,7 @@ body {
 }
 
 .title-h3 {
+    margin: 20px 0 20px 0;
     text-transform: uppercase;
     font-weight: 300;
     font-size: 30px;
@@ -139,11 +153,7 @@ body {
     }
 }
 
-@media screen and (max-width: 500px) {
-    .title-h3 {
-        font-size: 15px;
-    }
-}
+
 
 
 
@@ -152,13 +162,14 @@ body {
 
 .about__wrapper {
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 100px;
     
 }
 
 .about__title {
-    padding: 70px;
+    
+    padding: 50px;
     width: 50%;
     align-self: center;
 }
@@ -171,7 +182,7 @@ body {
 .about__text {
     text-align: justify;
     text-indent: 30px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     margin: 5px;
 }
@@ -240,9 +251,7 @@ body {
 }
 
 .cta:hover {
-    background-color: #c74037;
-    
-
+    background: #af271d;
 }
 
 
@@ -406,6 +415,25 @@ body {
     object-fit: contain;
 }
 
+.reviews__text {
+    font-size: 25px;
+    text-align: center;
+    margin: 80px auto;
+}
+
+.reviews__link {
+    text-decoration: none;
+    color: #e63c30;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.reviews__link:hover {
+    color: #ad190e;
+
+}
+
 
 .contact-form {
     background-color: #abaaa384;
@@ -428,21 +456,17 @@ body {
 
 .contact-form__input {
     border: none;
+    color: #e63c30;
     background-color: #EAE7DC;
     padding: 20px;
     margin: 10px;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 50px;
     font-weight: 400;
-    width: 600px;
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
 }
 
-@media screen and (max-width: 700px) {
-    .contact-form__input {
-        width: 400px;
-        font-size: 15px;
-    }
-}
 
 .contact-form__checkbox {
     margin-top: 5px;
@@ -470,7 +494,7 @@ body {
 }
 
 .contact-form__cta:hover {
-    background-color: #c74037;
+    background-color: #ab251b;
     
 
 }
