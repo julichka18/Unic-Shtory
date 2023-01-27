@@ -91,6 +91,12 @@ body {
     height: 750px;
 }
 
+@media screen and (max-width: 950px) {
+    .baner {
+        background-image: url(img/header2_3.jpg);
+    }
+}
+
 .baner__h1 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
