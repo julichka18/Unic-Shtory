@@ -79,12 +79,6 @@ body {
     color: #db3024;
 }
 
-.header__title {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
 .baner {
     display: flex;
     flex-direction: column;
