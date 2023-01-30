@@ -553,9 +553,6 @@ body {
 
 
 @media screen and (max-width: 500px) {
-    body {
-        background-color: #D8C3A5;
-    }
 
     .baner__h1 {
         font-size: 40px;
